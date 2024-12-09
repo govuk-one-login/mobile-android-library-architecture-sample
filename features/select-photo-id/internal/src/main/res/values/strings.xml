@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_photo_id_title">Which type of photo ID do you want to use?</string>
+    <string name="select_photo_id_body">You cannot use a photocopy or digital copy of your photo ID. Your photo ID must not have expired.</string>
+    <string name="select_photo_id_button">Continue</string>
+</resources>

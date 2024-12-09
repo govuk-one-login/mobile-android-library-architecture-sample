@@ -1,0 +1,8 @@
+<resources>
+    <string name="prove_identity_modal_title">Continue to prove your identity</string>
+    <string name="prove_identity_modal_body">Make sure you have your photo ID with you. You’ll be asked to take a photo of it with your phone.</string>
+    <string name="prove_identity_modal_button">Continue</string>
+    <string name="prove_identity_card_title">Prove your identity</string>
+    <string name="prove_identity_card_body">You need to prove your identity to access the service you’re trying to use."</string>
+    <string name="prove_identity_card_button">Continue proving your identity</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-logic" />
+                  <project path="$PROJECT_DIR$/build-logic/plugins" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/build-logic" />
+            <option value="$PROJECT_DIR$/build-logic/plugins" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/clear-data" />
+            <option value="$PROJECT_DIR$/features/clear-data/internal" />
+            <option value="$PROJECT_DIR$/features/clear-data/public-api" />
+            <option value="$PROJECT_DIR$/features/developer-settings" />
+            <option value="$PROJECT_DIR$/features/developer-settings/internal" />
+            <option value="$PROJECT_DIR$/features/developer-settings/internal-api" />
+            <option value="$PROJECT_DIR$/features/developer-settings/public-api" />
+            <option value="$PROJECT_DIR$/features/prove-identity" />
+            <option value="$PROJECT_DIR$/features/prove-identity/internal" />
+            <option value="$PROJECT_DIR$/features/prove-identity/internal-api" />
+            <option value="$PROJECT_DIR$/features/prove-identity/public-api" />
+            <option value="$PROJECT_DIR$/features/select-photo-id" />
+            <option value="$PROJECT_DIR$/features/select-photo-id/internal" />
+            <option value="$PROJECT_DIR$/libraries" />
+            <option value="$PROJECT_DIR$/libraries/active-session" />
+            <option value="$PROJECT_DIR$/libraries/compose" />
+            <option value="$PROJECT_DIR$/libraries/di" />
+            <option value="$PROJECT_DIR$/libraries/navigation" />
+            <option value="$PROJECT_DIR$/libraries/network" />
+            <option value="$PROJECT_DIR$/sdk" />
+            <option value="$PROJECT_DIR$/sdk/internal" />
+            <option value="$PROJECT_DIR$/sdk/public-api" />
+            <option value="$PROJECT_DIR$/sdk/shared-api" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
