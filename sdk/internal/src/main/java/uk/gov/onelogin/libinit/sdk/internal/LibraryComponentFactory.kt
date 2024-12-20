@@ -3,7 +3,7 @@ package uk.gov.onelogin.libinit.sdk.internal
 import androidx.activity.ComponentActivity
 import timber.log.Timber
 import uk.gov.onelogin.libinit.features.cleardata.api.ClearDataComponent
-import uk.gov.onelogin.libinit.libraries.activesession.ActiveSessionComponent
+import uk.gov.onelogin.libinit.features.activesession.internalapi.ActiveSessionComponent
 import uk.gov.onelogin.libinit.libraries.network.AuthenticatedHttpClient
 import uk.gov.onelogin.libinit.sdk.sharedapi.LibraryComponent
 import uk.gov.onelogin.libinit.sdk.sharedapi.LibrarySingleton

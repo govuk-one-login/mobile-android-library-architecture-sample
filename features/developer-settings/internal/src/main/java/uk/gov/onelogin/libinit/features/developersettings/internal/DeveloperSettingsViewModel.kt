@@ -5,9 +5,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
-import uk.gov.onelogin.libinit.libraries.activesession.CreateActiveSessionUseCase
-import uk.gov.onelogin.libinit.libraries.activesession.ExpireActiveSessionUseCase
-import uk.gov.onelogin.libinit.libraries.activesession.GetActiveSessionUseCase
+import uk.gov.onelogin.libinit.features.activesession.internalapi.CreateActiveSessionUseCase
+import uk.gov.onelogin.libinit.features.activesession.internalapi.ExpireActiveSessionUseCase
+import uk.gov.onelogin.libinit.features.activesession.internalapi.GetActiveSessionUseCase
 
 class DeveloperSettingsViewModel(
     private val getActiveSessionUseCase: GetActiveSessionUseCase,

@@ -12,6 +12,6 @@ configure<LibraryExtension> {
 dependencies {
     implementation(project(":features:developer-settings:internal-api"))
     implementation(project(":features:developer-settings:public-api"))
-    implementation(project(":libraries:active-session"))
+    implementation(project(":features:active-session:internal-api"))
     implementation(project(":libraries:di"))
 }

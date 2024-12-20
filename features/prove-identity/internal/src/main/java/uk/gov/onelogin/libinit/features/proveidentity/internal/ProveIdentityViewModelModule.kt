@@ -7,7 +7,7 @@ import androidx.lifecycle.viewmodel.viewModelFactory
 import com.squareup.anvil.annotations.ContributesTo
 import dagger.Module
 import dagger.Provides
-import uk.gov.onelogin.libinit.libraries.activesession.GetActiveSessionUseCase
+import uk.gov.onelogin.libinit.features.activesession.internalapi.GetActiveSessionUseCase
 import uk.gov.onelogin.libinit.libraries.di.LibraryScope
 import javax.inject.Named
 

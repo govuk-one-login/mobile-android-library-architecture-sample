@@ -12,9 +12,9 @@ configure<LibraryExtension> {
 dependencies {
     implementation(project(":features:prove-identity:public-api"))
     implementation(project(":features:prove-identity:internal-api"))
+    implementation(project(":features:active-session:internal-api"))
 
     implementation(project(":libraries:di"))
     implementation(project(":libraries:compose"))
     implementation(project(":libraries:navigation"))
-    implementation(project(":libraries:active-session"))
 }

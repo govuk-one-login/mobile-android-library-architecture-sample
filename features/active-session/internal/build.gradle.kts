@@ -6,10 +6,12 @@ plugins {
 }
 
 configure<LibraryExtension> {
-    setNamespace(suffix = ".libraries.activesession")
+    setNamespace(suffix = ".features.activesession.internal")
 }
 
 dependencies {
+    implementation(project(":features:active-session:internal-api"))
+
     implementation(project(":libraries:di"))
     implementation(project(":libraries:network"))
 }

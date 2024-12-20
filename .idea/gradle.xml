@@ -26,6 +26,9 @@
             <option value="$PROJECT_DIR$/build-logic" />
             <option value="$PROJECT_DIR$/build-logic/plugins" />
             <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/active-session" />
+            <option value="$PROJECT_DIR$/features/active-session/internal" />
+            <option value="$PROJECT_DIR$/features/active-session/internal-api" />
             <option value="$PROJECT_DIR$/features/clear-data" />
             <option value="$PROJECT_DIR$/features/clear-data/internal" />
             <option value="$PROJECT_DIR$/features/clear-data/public-api" />
@@ -40,7 +43,6 @@
             <option value="$PROJECT_DIR$/features/select-photo-id" />
             <option value="$PROJECT_DIR$/features/select-photo-id/internal" />
             <option value="$PROJECT_DIR$/libraries" />
-            <option value="$PROJECT_DIR$/libraries/active-session" />
             <option value="$PROJECT_DIR$/libraries/compose" />
             <option value="$PROJECT_DIR$/libraries/di" />
             <option value="$PROJECT_DIR$/libraries/navigation" />

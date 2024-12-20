@@ -1,4 +1,4 @@
-package uk.gov.onelogin.libinit.libraries.activesession
+package uk.gov.onelogin.libinit.features.activesession.internalapi
 
 import kotlinx.coroutines.flow.StateFlow
 

@@ -6,11 +6,9 @@ plugins {
 }
 
 configure<LibraryExtension> {
-    setNamespace(suffix = ".features.cleardata.internal")
+    setNamespace(suffix = ".features.activesession.internalapi")
 }
 
 dependencies {
     implementation(project(":libraries:di"))
-    implementation(project(":features:active-session:internal-api"))
-    implementation(project(":features:clear-data:public-api"))
 }

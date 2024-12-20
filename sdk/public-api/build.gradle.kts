@@ -18,7 +18,6 @@ dependencies {
 
     // Internal
     implementation(project(":sdk:internal"))
-    implementation(project(":libraries:active-session"))
     implementation(project(":libraries:compose"))
     implementation(project(":libraries:network"))
     implementation(project(":libraries:di"))
